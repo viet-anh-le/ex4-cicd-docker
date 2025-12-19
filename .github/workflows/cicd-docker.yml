@@ -26,7 +26,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: altper/it4409-sample:staging
+          tags: altper/it4409-sample:v2
   deploy:
     name: Deploy to Server
     runs-on: ubuntu-latest
